@@ -16,8 +16,8 @@ public class Pickup : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             PlayerController pc = collision.GetComponent<PlayerController>();
-            Shoot shoot = collision.GetComponent<Shoot>();
-            GroundCheck gc = collision.GetComponent<GroundCheck>();
+            //Shoot shoot = collision.GetComponent<Shoot>();
+           // GroundCheck gc = collision.GetComponent<GroundCheck>();
 
 
             switch (pickupType)

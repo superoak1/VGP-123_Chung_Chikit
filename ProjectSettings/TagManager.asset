@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pickup
   - Fireball
+  - Ground
   layers:
   - Default
   - TransparentFX
