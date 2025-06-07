@@ -7,6 +7,10 @@ TagManager:
   - Pickup
   - Fireball
   - Ground
+  - Enemy
+  - Battier
+  - Barrier
+  - Squish
   layers:
   - Default
   - TransparentFX
@@ -17,9 +21,9 @@ TagManager:
   - Ground
   - Fireball
   - Player
-  - 
-  - 
-  - 
+  - Pickup
+  - Enemy
+  - Barrier
   - 
   - 
   - 

@@ -7,10 +7,10 @@ public class TurretEnemy : Enemy
     private float timeSinceLastFire = 0;
     private PlayerController playerRef;
 
-    private void Awake()
-    {
-        GameManager.Instance.OnPlayerControllerCreated += SetPlayerRef;
-    }
+  //  private void Awake()
+   // {
+   //     GameManager.Instance.OnPlayerControllerCreated += SetPlayerRef;
+   // }
 
     private PlayerController SetPlayerRef(PlayerController playerInstance)
     {
